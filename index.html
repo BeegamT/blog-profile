@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>My Profile</title>
+    
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <!-- Header -->
+    <header class="text-white text-center py-3" style="background-color: #333232;">
+        <h1>Hi there, I am Beegam Thaheera T</h1>
+        <p>Welcome to my personal blog!</p>
+    </header>
+
+    <!-- Main Container -->
+    <div class="container my-5">
+        <div class="row">
+            
+            <!-- Profile Section -->
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="images/profile-pic.jpg" class="card-img-top" alt="Profile Picture">
+                    <div class="card-body">
+                        <h5 class="card-title">Beegam Thaheera T</h5>
+                        <p class="card-text">Full Stack Developer & Electronics Engineer</p>
+                        <p><strong>Email:</strong> beegamthaheera@gmail.com</p>
+                        <p><strong>Phone:</strong> +919961835186</p>
+                        <a href="mailto:beegamthaheera@gmail.com" class="btn btn-primary">Contact Me</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Blog Section -->
+            <div class="col-md-8">
+                <!-- Blog Post 1 -->
+                <div class="blog-post mb-4">
+                    <h2 class="blog-post-title">My First Blog Post</h2>
+                    <p class="blog-post-meta">July 23, 2024 by <a href="#">Beegam Thaheera T</a></p>
+                    <p>This is the content of my first blog post. I am an Electronics and Communication Engineer with a strong foundation in electronics. Currently, I am expanding my skill set by learning Full Stack Development (FSD), allowing me to delve into both front-end and back-end web development. Prior to my engineering degree, I completed a diploma in Electronics Engineering, which provided me with essential knowledge and hands-on experience in the field. My diverse background equips me with a unique perspective in technology and problem-solving, as I continue to grow and adapt in the ever-evolving tech landscape.</p>
+                    <button class="btn btn-success like-button" data-postid="1">Like <span class="like-count" id="like-count-1">0</span></button>
+                </div>
+ 
+                <!-- Blog Post 2 -->
+                <div class="blog-post">
+                    <h2 class="blog-post-title">Learning FSD</h2>
+                    <p class="blog-post-meta">October 22, 2024 by <a href="#">Beegam Thaheera T</a></p>
+                    <p>Full stack development (FSD) involves working on both the front-end and back-end of web applications. It covers building user interfaces with technologies like HTML, CSS, and JavaScript, ensuring a smooth user experience. On the back-end, developers manage databases, server logic, and APIs using languages like Node.js, Python, or Java. Full stack developers are versatile, able to switch between client-side and server-side tasks. They also manage deployment and optimization of applications for performance and scalability. This combined skill set makes full stack developers valuable in creating complete, end-to-end web solutions.</p>
+                    <button class="btn btn-success like-button" data-postid="2">Like <span class="like-count" id="like-count-2">0</span></button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Contact Form -->
+    <div class="container my-5 contact-form">
+        <h3>Contact Me</h3>
+        <form>
+            <div class="form-group">
+                <label for="name">Name</label>
+                <input type="text" class="form-control" id="name" placeholder="Enter your name" required>
+            </div>
+            <div class="form-group">
+                <label for="email">Email address</label>
+                <input type="email" class="form-control" id="email" placeholder="Enter your email" required>
+            </div>
+            <div class="form-group">
+                <label for="message">Message</label>
+                <textarea class="form-control" id="message" rows="4" placeholder="Enter your message" required></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
+    </div>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white text-center py-3">
+        <p>&copy; 2024 Beegam Thaheera's Blog. All rights reserved.</p>
+    </footer>
+
+    <!-- Bootstrap JS and dependencies -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+    <!-- Custom JS -->
+    <script src="js/main.js"></script>
+</body>
+</html>
